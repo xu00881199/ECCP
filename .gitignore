@@ -36,7 +36,6 @@ Thumbs.db
 docs/
 tests/
 main.py
-train_eccp_ffair.py
 train_*.sh
 test_*.sh
 evaluate_*.py
@@ -59,8 +58,9 @@ models/position_encoding.py
 models/prompt_enhancer.py
 models/transformer.py
 models/utils.py
-datasets/ffair_*.py
-datasets/ffa_ir_*.pkl
+datasets/ffair_text_cleaner.py
+datasets/ffa_ir_clean_vocabulary.pkl
+datasets/ffa_ir_thr1_vocabulary.pkl
 datasets/strip_list.pkl
 datasets/thresholds.pkl
 datasets/utils.py
