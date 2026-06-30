@@ -1,0 +1,17 @@
+name: eccp
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - numpy
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+      - pycocoevalcap
+      - opencv-python
